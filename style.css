@@ -40,15 +40,186 @@
     font-size: 10px;
 }
 
+/*Container-1 Section Styles Starts From Here*/
+
+.container-1 {
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+.banner {
+    width: 78.5%;
+    height: 400px;
+    position: absolute;
+    filter: brightness(0.5);
+}
+
+.sec-1-text {
+    display: block ;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    width: 80%;
+    height: 200px;
+    
+    text-align: center;
+}
+
+.heading-text > h2 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.heading-text > p {
+    font-size: 10px;
+    color: white;
+}
+
+.input-field > .text {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+}
+.input-field > #option-1 {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+}
+.input-field > #option-2{
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+}
+.input-field > .button {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/*Container-2 Styles Starts From Here*/
+
+.container-2 {
+    width: 80%;
+    height: 400px;
+    
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.sec-2-img {
+    width: 50%;
+    
+}
+.sec-2-text {
+    width: 40%;
+    
+}
+
+.mountain {
+   width: 100%;
+}
+
+.sec-2-text > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec-2-text > p {
+    font-size: 15px;
+    color: grey;
+}
+.sec-2-text > ul > li{
+    font-size: 15px;
+    color: grey;
+}
+.button-2 {
+    background-color: orangered;
+    padding: 8px;
+    color: white;
+    border: none;
+border-radius: 5px;
+}
+
+
+
 
 /*Responsive Design Starts from Here*/
 /*Responsive Design Starts from Here*/
 
 @media only screen and (max-width: 600px) {
+   /*Header Responsive*/
+   
     .header {
         display: flex;
         flex-direction: column;
     }
+
+    .input-field {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input-field > .text {
+        padding: 5px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .input-field > #option-1 {
+        padding: 5px;
+        width: 100%;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .input-field > #option-2{
+        padding: 5px;
+        width: 100%;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .input-field > .button {
+        padding: 5px;
+        width: 100%;
+        height: 30px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    /*Container-2 Responsive Starts From here*/
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-2-text {
+        text-align: center;
+        width: 300px;
+        height: 350px;
+    }
+    .sec-2-img {
+        width: 300px;
+        margin-top: 10px;
+    }
+    .mountain {
+        width: 100%;
+    }
+    
+
+
   }
+
 
 
