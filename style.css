@@ -108,7 +108,6 @@
 .container-2 {
     width: 80%;
     height: 400px;
-    
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -123,7 +122,9 @@
 }
 
 .mountain {
-   width: 100%;
+   width: 80%;
+   height: 300px;
+   margin-left: 80px;
 }
 
 .sec-2-text > h2 {
@@ -143,8 +144,211 @@
     padding: 8px;
     color: white;
     border: none;
-border-radius: 5px;
+    border-radius: 5px;
 }
+
+
+/*Container-3 Styles Starts From Here*/
+
+.container-3 {
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    
+}
+
+
+/*Container-3 style text here*/
+
+.container-3-text > h2 {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-3-text > p {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*Row-1 styles*/
+.row-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.maldives , .indonesia {
+    width: 390px;
+    filter: brightness(0.8);
+}
+
+/*Row-2 styles*/
+.row-2 {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    gap: 5px;
+    height: 200px;
+}
+.srilanka {
+    width: 220px;
+    height: 200px;
+}
+.north-america {
+    width: 330px;
+    height: 200px;
+}
+
+.kashmir {
+    width: 200px;
+    height: 200px;
+}
+
+/*Row-3 starts from here*/
+.row-3 {
+    display: grid;
+    grid-template-columns: 380px 400px;
+    height: 200px;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.bangladesh {
+    width: 350px;
+    height: 200px;
+}
+.bandorban {
+    width: 395px;
+    height: 200px;
+}
+
+/*Text on image Styles Starts here*/
+
+
+/*Row-1 text onn image*/
+
+.row-1-img1 {
+    height: 200px;
+    
+    position: relative;
+}
+
+
+.row-1-img1 > p {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    font-size: 15px;
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row-1-img2 {
+    height: 200px;
+    
+    position: relative;
+}
+.row-1-img2 > p {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Row -2 text on image*/
+
+.row-2-img1, .row-2-img2, .row-2-img3 {
+    height: 200px;
+    position: relative;
+}
+
+.row-2-img1 > p {
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row-2-img2 > p {
+    position: absolute;
+    top: 60px;
+    left: 30%;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.srilanka,.north-america,.kashmir {
+    filter: brightness(0.7);
+}
+
+.row-2-img3 > p {
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+
+/*Row-3 text on image*/
+
+.row-3 {
+    position: relative;
+    height: 400px;
+    
+}
+
+.row-3-img1 > p{
+    position: absolute;
+    top: 60px;
+    left: 17%;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; position: absolute;
+}
+
+
+.row-3-img2 {
+    position: relative;
+}
+
+
+.row-3-img2 > p{
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; position: absolute;
+}
+
+.bangladesh , .bandorban {
+    filter: brightness(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -217,9 +421,38 @@ border-radius: 5px;
         width: 100%;
     }
     
+/*Container-3 Styles Starts from here*/
+
+.container-3{
+    margin-top: 200px;
+}
+.row-1 {
+    display: flex;
+    flex-direction: column;
+}
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.row-3 {
+    margin-top: 420px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.row-3-img1 > p{
+    position: absolute;
+    top: 60px;
+    left: 37%;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; position: absolute;
+}
+
+    
 
 
-  }
+}
 
 
 
